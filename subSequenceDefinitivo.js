@@ -1,16 +1,3 @@
-/*
-mapString = Função recebe uma string e transforma em objeto : chave = letra, value = arrayIndices
-
-isSubsequente = Função recebe uma string e um objeto e retorna true ou false se ele for Subsequence
-
-LongestWord = Função recebe uma array de string e retorna a string mais longa.
-
-findNextIndex = Função deverá receber a array e o index e retornar o index + 1 ou false
-
-longestMatch = a função recebe uma string uma array de possíveis subsequence e retorna a subsequente mais longa da array.
-*/
-
-
 function mapString(string){
     let map = {}
     for (let i = 0; i < string.length; i++){
@@ -78,5 +65,4 @@ function longestMatch(string, dictionary){
 }
 var stringSequence = 'Javascript'
 var dictionary = ['vascut','avast','Javas','apt']
-//longestMatch(stringSequence, dictionary)
 console.log(isSubsequence('ava', mapString(stringSequence)))
